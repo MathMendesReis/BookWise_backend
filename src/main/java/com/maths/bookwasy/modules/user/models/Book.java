@@ -33,8 +33,8 @@ public class Book {
     private String coverUrl;
     private Integer totalPages;
     private Date createdAt;
-    // @ManyToMany
-    // private List<CategoriesOnBooks> categories;
-    // @OneToMany(mappedBy = "book")
-    // private List<Rating> ratings;
+    @ManyToMany
+    private List<CategoriesOnBooks> categories;
+    @OneToMany(mappedBy = "book")
+    private List<Rating> ratings;
 }
