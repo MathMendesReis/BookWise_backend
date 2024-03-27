@@ -1,4 +1,4 @@
-package com.maths.bookwasy.modules.user.models;
+package com.maths.bookwasy.modules.models;
 
 import java.util.List;
 import java.util.UUID;
